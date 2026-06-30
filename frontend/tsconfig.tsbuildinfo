@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/dateslider.tsx","./src/components/inspectpopup.tsx","./src/components/legend.tsx","./src/components/map.tsx","./src/components/pollutanttoggle.tsx","./src/context/mapcontext.tsx"],"version":"6.0.3"}
