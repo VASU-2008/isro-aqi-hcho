@@ -1,4 +1,7 @@
 data/
+# Exception: baked serving data must ship for cloud deploy
+!backend/seed/
+!backend/seed/**
 .env
 *.env
 

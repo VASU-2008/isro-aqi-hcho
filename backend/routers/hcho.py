@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from fastapi import APIRouter, Query, HTTPException
-from backend.db import postgres, redis_cache
+from db import postgres, redis_cache
 
 router = APIRouter(prefix="/hcho", tags=["HCHO"])
 

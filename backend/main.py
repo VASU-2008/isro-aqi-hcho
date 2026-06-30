@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from backend.db import postgres, redis_cache
-from backend.routers import aqi, hcho, timeseries, stations, tiles
+from db import postgres, redis_cache
+from routers import aqi, hcho, timeseries, stations, tiles
 
 API_KEY_HEADER = APIKeyHeader(name="X-API-Key", auto_error=False)
 

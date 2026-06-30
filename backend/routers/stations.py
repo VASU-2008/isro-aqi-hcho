@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from backend.db import postgres
+from db import postgres
 
 router = APIRouter(prefix="/stations", tags=["Stations"])
 

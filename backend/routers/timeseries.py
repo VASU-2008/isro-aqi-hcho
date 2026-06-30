@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Query
-from backend.services import zarr_reader
+from services import zarr_reader
 
 router = APIRouter(prefix="/timeseries", tags=["Timeseries"])
 

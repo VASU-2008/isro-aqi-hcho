@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query
-from backend.db import redis_cache
-from backend.services import zarr_reader
+from db import redis_cache
+from services import zarr_reader
 
 router = APIRouter(prefix="/aqi", tags=["AQI"])
 
